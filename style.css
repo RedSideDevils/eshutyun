@@ -1,0 +1,56 @@
+body{
+    background-color: cyan;
+    background-image: url('https://assets.stickpng.com/images/580b585b2edbce24c47b23e5.png');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: top; 
+    background-size: 80px;
+}
+
+marquee:hover{
+    background-color: purple;
+}
+
+marquee h1:hover{
+    color:blue;
+}
+
+.title{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.container{
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.art{
+    color:green;
+}
+.art::first-letter{
+    color:Red;
+}
+h1,h2,h3,h4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.art-2{
+    color:red;
+}
+.art-2::first-letter{
+    color:black
+}
+
+.art-3{
+    color:yellow;
+}
+.art-3::first-letter{
+    font-size: 25px;
+    color:red;
+}
